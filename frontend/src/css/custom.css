@@ -1,0 +1,91 @@
+/* your styles go here */
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+.modal-content{
+  border: none;
+}
+
+.modal:target{
+  display: block !important;
+  background-color: rgba(175, 175, 175, 0.3);
+  animation: fadeIn;
+  animation-duration: .5s; 
+}
+
+.modal:target .fade.show{
+  visibility: visible !important;
+  animation: fadeIn;
+  animation-duration: .5s; 
+}
+
+.fix_addwish{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  color: #ffffff;
+}
+
+.fix_comment{
+  cursor: pointer;
+}
+
+.fix_comment:hover{
+  color: #ffffff !important;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(.8);
+    }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    } 
+}
+
+.alertify-notifier {
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  border: 2px solid #ffffff !important;
+}
+
+.ajs-message{
+  /* background-color: #00ccff !important; */
+  width: 20rem !important;
+}
+
+.remove_cart{
+  background-color: white;
+  padding: .6rem .8rem;
+}
+
+.remove_cart:hover{
+  background-color: black;
+  border-radius: .5rem !important;
+  transition: all .5s ease-in-out;
+}
+
+.remove_cart:hover .text-muted{
+  color: #ffffff !important;
+}
+
+.Section_Category{
+  animation-name: fadeIn;
+  animation-duration: .9s;
+  animation-timing-function: ease-in-out; 
+}
+
+@keyframes fadeIn{
+  0%{
+      opacity: 0;
+      transform: scale(.8);
+  }
+  100%{
+      opacity: 1;
+      transform: scale(1);
+  }
+}
