@@ -1,10 +1,19 @@
 # shopping-ecommerce
 # Backend: You need to setup database to run server. So, How can run it?
-1. You need to edit config.js inside folder config. Config what? 
-  + username, password, and then database. If you haven't database. You should use command: npx sequelize create:db
-2. You need to create folder model and migration. But, how can do it? 
-  + Use: npx sequelize model:generate --name TenModel --attributes property:type, property:type. So I have 7 models, you need to create 7 models with name and attributes corresponding
-  + Then use: npx sequelize db:migrate to table migrate
- 3. Add your data to database.
- 
- #Frontend: You just do "npm start" it will run for you
+
+First, After git clone my source, you need to setup config database. username, password, database(name you DB). And connect to mySQL (Pic 1)
+Second, You must read router folder to define API for postman. (Pic 2)
+Third, You must create product follow params I have defined same Pic 2
+Fourth, You need to pay attention "Category" in Pic 3 to create right product follow "Category". And Pic 4 I have four category.
+Finally, Any question let's tell me. I have attachment collections of POSTMAN. In there, I have defined all API of project. 
+
+ # Frontend: You just do "npm start" it will run for you
+
+ Tool API: POSTMAN
+Resource for project: https://vuahanghieu.com/
+
+Attachment Image for above:
+![1](https://github.com/sangnguyen190997/shopping-ecommerce/assets/37098467/d961eaf1-59b4-41d2-bc32-7821d4811c1c)
+![2](https://github.com/sangnguyen190997/shopping-ecommerce/assets/37098467/5416c2b6-9cfa-4034-9ee1-79da9b4cbf36)
+![3](https://github.com/sangnguyen190997/shopping-ecommerce/assets/37098467/8768ae4b-2f1e-41d6-b674-ec9ae5a112ea)
+![4](https://github.com/sangnguyen190997/shopping-ecommerce/assets/37098467/ac7662ca-a4ed-468d-a1cc-6e953d6263e3)
