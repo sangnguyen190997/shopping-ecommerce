@@ -11,6 +11,7 @@ Finally, Any question let's tell me. I have attachment collections of POSTMAN. I
 
  Tool API: POSTMAN
 Resource for project: https://vuahanghieu.com/
+Postman Collections: https://drive.google.com/file/d/1tOW8GH8ijfbWc_NAZTmtdINq5-1CNrpc/view?usp=sharing
 
 Attachment Image for above:
 ![1](https://github.com/sangnguyen190997/shopping-ecommerce/assets/37098467/d961eaf1-59b4-41d2-bc32-7821d4811c1c)
